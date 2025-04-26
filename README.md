@@ -25,20 +25,10 @@ Follow these steps carefully to set up and run the project locally:
 ## 1. Install Python
 
 Make sure you have Python 3.10+ installed.  
-Check version:
-
-```bash
-python --version
-```
-
-If not installed, download from [Python official website](https://www.python.org/downloads/).
 
 ---
 
 ## 2. Install MySQL
-
-Ensure MySQL Server is installed on your machine.  
-If not installed, download from [MySQL Downloads](https://dev.mysql.com/downloads/installer/).
 
 After installation, **create a new database**:
 
@@ -51,7 +41,8 @@ Enter your MySQL password, then:
 CREATE DATABASE incident_log_db;
 EXIT;
 ```
-
+- **If the Database is not create then it will throw an error.**
+  
 ---
 
 ## 3. Clone the Project
