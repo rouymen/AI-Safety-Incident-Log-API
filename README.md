@@ -57,8 +57,8 @@ EXIT;
 ## 3. Clone the Project
 
 ```bash
-git clone <your-repository-link>
-cd ai_safety_incident_log
+git clone https://github.com/rouymen/AI-Safety-Incident-Log-API.git
+cd AI-Safety-Incident-Log-API
 ```
 
 ---
@@ -128,16 +128,6 @@ Table: `incidents`
 | severity      | VARCHAR(20)  | "Low", "Medium", or "High"      |
 | reported_at   | TIMESTAMP    | Default to CURRENT_TIMESTAMP   |
 
-SQL to manually create (optional):
-```sql
-CREATE TABLE incidents (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    description TEXT NOT NULL,
-    severity VARCHAR(20) NOT NULL,
-    reported_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-```
 
 ---
 
