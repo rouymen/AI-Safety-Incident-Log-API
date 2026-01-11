@@ -1,10 +1,6 @@
 
 # AI Safety Incident Log API
 
-This project implements a simple RESTful API backend to **log and manage AI safety incidents** using **Flask (Python)** and **MySQL**.  
-It is developed as part of a backend intern take-home assignment for an AI safety startup.
-
----
 
 ## 🛠️ Technology Stack
 
